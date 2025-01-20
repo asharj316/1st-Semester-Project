@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  background-color: black;
+}
+/* NAVBAR SECTION */
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brandlogo {
+  height: 60px;
+  width: 60px;
+  margin: 5px 0px;
+}
+.navlist {
+  list-style: none;
+  display: flex;
+}
+.listitems {
+  margin: 0px 20px;
+  border-bottom: 2px red;
+  padding: 5px 7px;
+}
+.listitems:hover {
+  border-bottom: 2px solid red;
+  transition: 1s ease-in-out;
+  transform: scale(1.1);
+}
+.item {
+  background-color: red;
+  padding: 5px 7px;
+  border-radius: 3px;
+}
+
+.searchinput {
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.searchbtn {
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+.searchbtn:hover {
+  transition: 1s ease-in-out;
+  background-color: red;
+  color: white;
+}
+.separator {
+  background-color: black;
+  height: 3px;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+:hover {
+  cursor: pointer;
+}
+h2 {
+  font-size: 26px;
+  color: white;
+  margin: 2px 20px;
+  text-shadow: 1px 0px 2px red;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  height: 300px;
+  border-radius: 4px;
+}
+.item1 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/fukrey.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item1:hover {
+  transform: scale(1.05);
+
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+.item2 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/ce.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item2:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+.item3 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/badhai\ ho.jpg );
+  background-size: cover;
+  border-radius: 7px;
+}
+.item3:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+.item4 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/munna\ bhai.jpg );
+  background-size: cover;
+  border-radius: 7px;
+}
+.item4:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+.item5 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/Brazil\ Movie.jpeg );
+  background-size: cover;
+  border-radius: 7px;
+}
+.item5:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item6 {
+  width: 17%;
+
+  background-color: aqua;
+  background-image: url(/static/images/badhai\ ho.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item6:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item7 {
+  width: 17%;
+
+  background-color: aqua;
+  background-image: url(/static/images/bb3.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item7:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item8 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/1e621900db97ac5edea2e523d95e5372.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item8:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item9 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/yjhd.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item9:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item10 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/lb.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item10:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+.item11 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/3i.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item11:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item12 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/dhamal.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item12:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item13 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/kgf.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item13:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item14 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/ddlj.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item14:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}
+
+.item15 {
+  width: 18%;
+  background-color: aqua;
+  background-image: url(/static/images/znmd.jpg);
+  background-size: cover;
+  border-radius: 7px;
+}
+.item15:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  border-radius: 20%;
+  background-size: cover;
+}

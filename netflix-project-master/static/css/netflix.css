@@ -1,0 +1,358 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+
+
+/* NAV AND HERO SECTION */
+.main {
+  background-image: url(/static/images/Netflix\ Indian\ Movies\ and\ Web\ Series.jpeg );
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body {
+  background: #000;
+}
+a{
+  text-decoration: none;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.71;
+  background: #000;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+}
+nav img {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 20;
+  background-color: transparent;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 25px;
+  padding: 0 30px;
+}
+.hero > span:nth-child(1) {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+.hero span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 600px;
+  text-align: center;
+}
+.hero span:nth-child(3) {
+  font-size: 20px;
+  font-weight: 500px;
+  text-align: center;
+}
+.separate {
+  background: grey;
+  height: 3px;
+  margin-top: -83px;
+}
+.btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.btn a{
+  color: white;
+}
+.btn-red {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.btn-red-sm {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+.btn-red-sm:hover {
+  background-color: red;
+  cursor: pointer;
+  color: rgb(189, 184, 184);
+  transition: 0.2s ease-in-out;
+}
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+input {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: rgba(107, 104, 104, 0.274);
+  border-radius: 10px;
+  color: white;
+  margin: 0 5px;
+}
+input:hover {
+  transition: 2s ease-out;
+  cursor: pointer;
+}
+
+/* SECTIONS  */
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  padding: 30px;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 30vw;
+  margin-left: 170px;
+  padding: 5px;
+  position: relative;
+  z-index: 10;
+}
+
+.first p:nth-child(1) {
+  font-size: 40px;
+  padding: 4px;
+  font-weight: bolder;
+}
+.first p:nth-child(2) {
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px red;
+}
+.secimg video {
+  position: absolute;
+  width: 30vw;
+  top: 23px;
+  height: 32vh;
+
+  left: 175px;
+
+  z-index: 15;
+}
+.separate1 {
+  height: 3px;
+  margin-top: 30px;
+  background-color: gray;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  padding: 30px;
+}
+.secimg1 {
+  position: relative;
+  /*  margin-right: 900px; */
+}
+.secimg1 .phone {
+  position: relative;
+  z-index: 109;
+  height: 70vh;
+  width: 30vw;
+  background-color: white;
+}
+.secimg1 .partner {
+  position: absolute;
+  height: 66vh;
+  top: 15px;
+  right: 90px;
+  z-index: 110;
+  border-radius: 25px;
+  width: 18vw;
+}
+.first .second p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.first .second p:nth-child(2) {
+  font-size: 25px;
+  font-weight: 300;
+  align-items: center;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  padding: 30px;
+}
+.secimg3 {
+  position: relative;
+}
+.images {
+  position: absolute;
+  z-index: 100;
+}
+.images .no1 {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #000;
+  position: absolute;
+  top: 10px;
+  height: 40vh;
+  left: 20px;
+}
+.secimg .vid {
+  position: absolute;
+  height: 32vh;
+
+  width: 26vw;
+
+  top: 20px;
+  left: 200px;
+
+  /* position: absolute;
+  width: 30vw;
+  top: 23px;
+  height: 32vh;
+  
+  left: 175px;
+  z-index: 15; */
+}
+.images .no2 {
+  position: absolute;
+  top: 10px;
+  border-radius: 6px;
+  left: 365px;
+  height: 35vh;
+  width: 22vw;
+}
+.separate2 {
+  height: 4px;
+  margin-top: 150px;
+  background-color: gray;
+}
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  padding: 50px;
+  gap: 20px;
+}
+
+.secimg3 {
+  position: relative;
+  z-index: 10;
+  padding: 15px;
+}
+.children {
+  width: 30vw;
+  margin-right: 50px;
+}
+.faqs {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  
+  transition: all 1s ease-out;
+  
+}
+.faqs:hover {
+  filter: opacity(1);
+  
+}
+.faqs h2 {
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 2px 2px 3px red;
+}
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 40vw;
+  margin: 30px auto;
+  background-color: gray;
+  font-size: 18px;
+ 
+}
+.faqbox:hover {
+  transition: all 1s ease-out;
+  background-color: rgb(61, 60, 60);
+}
+ .email{
+  padding: 20px;
+  justify-content: center;
+ 
+  max-width: 30vw;
+  margin: 27px auto;
+  
+}
+.email p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+.email input{
+  text-align: center;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+} 
+.email button{
+  padding:  13px 20px;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+  font-size:12px ;
+}
